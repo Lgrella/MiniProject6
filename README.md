@@ -7,7 +7,7 @@ Connect to SQLite database, perform ETL operations and CRUD sql operations
 
 ---
 ## Github Actions:
-[![CI](https://github.com/nogibjj/sqlite-lab-LG/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/sqlite-lab-LG/actions/workflows/cicd.yml)
+[![CI Check](https://github.com/nogibjj/sqlite-lab-LG/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/sqlite-lab-LG/actions/workflows/cicd.yml)
 ---
 
 ## Screenshots of Queries:
