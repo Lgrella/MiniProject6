@@ -1,4 +1,13 @@
-from mylib.etlfunctions import connect, create, insert, read, update, delete,sort_payroll, print5_query
+from mylib.etlfunctions import (
+    connect,
+    create,
+    insert,
+    read,
+    update,
+    delete,
+    sort_payroll,
+    print5_query,
+)
 import os
 
 
@@ -19,7 +28,7 @@ print("Reading...")
 # Read
 info = read(cursor)
 print(info)
-#query
+# query
 print("\n")
 print("Sorting By Pay Amount...")
 sort_payroll(cursor)

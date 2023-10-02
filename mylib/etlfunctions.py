@@ -1,6 +1,4 @@
 import sqlite3
-import tabulate
-
 def connect(name):
     # connect to a SQLite data base
     connect = sqlite3.connect(name)
