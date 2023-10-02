@@ -11,4 +11,4 @@ Connect to SQLite database, perform ETL operations and CRUD sql operations
 ---
 
 ## Screenshots of Queries:
-![queries](https://github.com/nogibjj/sqlite-lab-LG/Screenshot 2023-10-01 at 8.31.47 PM.png)
+![queries](queries.png)
