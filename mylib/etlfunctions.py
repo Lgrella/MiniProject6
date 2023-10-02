@@ -1,4 +1,5 @@
 import sqlite3
+import tabulate
 
 def connect(name):
     # connect to a SQLite data base
@@ -41,3 +42,15 @@ def delete(cursor,id):
 def insert(cursor,id,first_name,last_name,payamt,jobtitle):
      cursor.execute('''INSERT INTO payroll VALUES (?,?,?,?,?)''',\
          (id,first_name,last_name,payamt,jobtitle))
+     
+def sort_payroll(cursor):
+    cursor.execute('SELECT * FROM payroll ORDER BY payamt DESC')
+    rows = cursor.fetchall()
+    for row in rows:
+        print(row)
+
+def print5_query(cursor):
+    cursor.execute('SELECT * FROM payroll LIMIT 5')
+    rows = read(cursor)
+    for row in rows:
+        print(row)
